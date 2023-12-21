@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>d a z e</title>
+    <link rel="icon" href="images/profile.jpg">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="ADD_ME">Steam</https://steamcommunity.com/id/ogdaze/>
+        <a href="ADD_ME">Group</https://steamcommunity.com/groups/linuxofficial>
+        <a href="ADD_ME">Youtube</https://www.youtube.com/channel/UC-epLDRS_3WclPfEEQMriqQ>
+        <a href="ADD_ME">Instagram</https://www.instagram.com/dz3k1/>
+        <a href="ADD_ME">Twitter</https://twitter.com/dazeoncrack>
+    </div>
+
+    <!-- Background Image -->
+    <div class="background-image"></div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="content">
+            <!-- Profile Section -->
+            <div class="profile">
+                <img src="images/profile.jpg" alt="Profile Picture">
+                <h1>daze</h1>
+            </div>
+
+            <!-- About Me Section -->
+            <div class="about-me">
+                <p>If you can't find a reason to fight, then you shouldn't be fighting.</p>
+            </div>
+
+            <!-- Play Music Button -->
+            <div class="profile">
+                <button onclick="playAudio()">Play Music</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tag Section -->
+    <div class="tag">
+        Created by Shae
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="audio" preload="auto">
+        <source src="music/dragonfly.mp3" autoplay loop type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- JavaScript Function to Play Audio -->
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
+</body>
+</html>
